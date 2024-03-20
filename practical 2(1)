@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{ 
+
+    double a;
+    double b;
+    double add;
+    double sub;
+    double multi;
+    double div;
+    
+    cout<<"enter tha value a  : ";
+    cin>>a;
+    cout<<"enter tha value b : ";
+    cin>>b;
+    
+    add=a+b;
+    sub=a-b;
+    multi=a*b;
+    div=a/b;
+    
+    cout << "Addition of two number is " << add << endl
+         << "Subtraction of two number is " << sub << endl
+         << "multiplication of two number is " <<multi  << endl
+         << "divition of two number is " << div << endl;
+    
+    return 0;
+}
