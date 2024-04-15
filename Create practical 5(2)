@@ -17,7 +17,7 @@ int main()
 {
     employee e1;
     
-    cout<<"enter a value of employee num :"<<endl;
+    cout<<"enter a  employee num :"<<endl;
     cin>>e1.number;
     
     cout<<"enter a employee name:"<<endl;
