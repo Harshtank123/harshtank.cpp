@@ -33,4 +33,4 @@ double a,b,c,d;
     cout << "CM to Feet : " << c << endl;
     cout << "CM to Inches : " << d << endl;
     return 0;
-}1
+}
