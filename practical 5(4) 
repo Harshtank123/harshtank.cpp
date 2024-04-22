@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+class Item {
+private:
+    int quantity;
+    float cost;
+public:
+    void put_data() {
+        cout << "Quantity: " << quantity << endl;
+        cout << "Cost: " << cost << endl;
+    }
+
+     void get_data(double q,double c);
+};
+
+void Item::get_data(double q,double c){
+quantity =q;
+cost=c;
+
+}
+
+int main() {
+    Item item;
+    item.get_data(100,5);
+    item.put_data();
+    return 0;
+}
